@@ -14,10 +14,9 @@ class ViewController: UIViewController {
     override var prefersStatusBarHidden: Bool {
         return true
     }
-    
     // mark: - Methods
-    
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         updateUI()
         
